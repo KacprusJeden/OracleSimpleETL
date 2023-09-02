@@ -1,4 +1,4 @@
 AMAZONSTAGEKP
-Kacperowy2001!
+YourPassword
 localhost:1521
 xepdb1
