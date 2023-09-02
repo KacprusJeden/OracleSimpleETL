@@ -18,19 +18,3 @@ def get_connection_string_from_TXT(file_source):
         return connection_string
     except oracledb.exceptions.DatabaseError:
         print('Odmowa zalogowania z powodu błędnych lub niewystarczającej ilości danych do bazy')
-
-
-'''print(get_connection_string_from_TXT('oracle_oltp_connection_parameters.txt'))
-
-
-text = "OLTP/Kacperowy2001!@localhost:1521/xepdb1"
-result = text.split('/', 1)[0]
-print(result)'''
-
-
-
-# cursor.execute('select * from categoryMasterKP')
-# connection.commit()
-# for result in cursor.fetchall():
-#     print(result)
-
